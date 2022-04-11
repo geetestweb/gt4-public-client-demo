@@ -1,9 +1,9 @@
 /*
- * @Description:本地服务
+ * @Description: 本地二次校验
  * @Version: 1.0.0
- * @Date: 2022-04-11 12:12:16
+ * @Date: 2022-04-11 18:01:54
  * @LastEditors: Yawen Yang
- * @LastEditTime: 2022-04-11 12:12:16
+ * @LastEditTime: 2022-04-11 18:09:18
  */
 const koa = require("koa");
 const Router = require("@koa/router");
@@ -18,7 +18,7 @@ const keyMap = {
 
 const app = new koa();
 const router = new Router();
-app.use(koaStatic(__dirname + "/dist"));
+app.use(koaStatic(__dirname + "/build"));
 
 app.use(async (ctx, next) => {
   ctx.set("Access-Control-Allow-Origin", "*");
