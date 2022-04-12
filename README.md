@@ -1,24 +1,24 @@
-# demo2
+# captcha demo
 
 ## Project setup
 ```
-yarn install
+yarn/npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn/npm serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+yarn/npm build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+### 1、find index.html in your project
+### 2、add  <script src="https://static.geetest.com/v4/gt4.js"></script> in index.html 
+### 3、declare Window in global
+### 4、init Captcha like demo above
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
