@@ -3,7 +3,7 @@
  * @Version: 1.0.0
  * @Date: 2022-04-11 11:22:53
  * @LastEditors: Yawen Yang
- * @LastEditTime: 2022-04-11 14:44:48
+ * @LastEditTime: 2022-06-17 15:56:25
 -->
 <template>
   <div class="demoform">
@@ -71,7 +71,7 @@ export default defineComponent({
     function login() {
       if (data.captchaConfig.config.product === "bind") {
         if (window.captchaObj) {
-          (window as any).captchaObj.showBox();
+          (window as any).captchaObj.showCaptcha();
         } else {
           alert("请等待验证初始化完成");
           return false;
