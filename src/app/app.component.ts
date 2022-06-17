@@ -59,7 +59,7 @@ export class AppComponent {
   login() {
     if (this.captchaConfig.config.product === "bind") {
       if ((window as any).captchaObj) {
-        (window as any).captchaObj.showBox();
+        (window as any).captchaObj.showCaptcha();
       } else {
         alert("请等待验证初始化完成");
         // return false;
