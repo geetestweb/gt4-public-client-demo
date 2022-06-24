@@ -9,12 +9,12 @@ yarn/npm install
 
 ### Compiles and hot-reloads for development
 ```
-yarn/npm ios/android
+yarn/npm run   ios/android
 ```
 
 ### Start Metro service
 ```
-yarn/npm start
+yarn/npm run   start
 ```
 
 ### 1、Find webview page demo.html in Static.bundle
