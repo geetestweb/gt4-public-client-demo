@@ -1,5 +1,7 @@
-# captcha demo
-
+# rn webview captcha demo
+```
+Node above v14
+```
 ## Project setup
 ```
 yarn/npm install
@@ -7,18 +9,16 @@ yarn/npm install
 
 ### Compiles and hot-reloads for development
 ```
-yarn/npm serve
+yarn/npm ios/android
 ```
 
-### Compiles and minifies for production
+### Start Metro service
 ```
-yarn/npm build
+yarn/npm start
 ```
 
-### 1、find index.html in your project
-### 2、add  <script src="https://static.geetest.com/v4/gt4.js"></script> in index.html 
-### 3、declare Window in global
+### 1、Find webview page demo.html in Static.bundle
+### 2、Deploy the intermediate page to your server
+### 3、Modify the source address in pages/webview.tsx to the intermediate page address you published 
 ### 4、init Captcha like demo above
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
