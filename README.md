@@ -1,4 +1,4 @@
-# rn webview captcha demo
+# React Native webview captcha demo
 ```
 Node above v14
 ```
