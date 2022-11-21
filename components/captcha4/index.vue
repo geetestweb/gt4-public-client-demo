@@ -66,7 +66,7 @@ export default {
       );
 
       // 获取webview
-      var currentWebview = this.getAppWebview(this.$parent); //此对象相当于html5plus里的plus.webview.currentWebview()。在uni-app里vue页面直接使用plus.webview.currentWebview()无效
+      var currentWebview = this.$root.$scope.$getAppWebview(); //此对象相当于html5plus里的plus.webview.currentWebview()。在uni-app里vue页面直接使用plus.webview.currentWebview()无效
       currentWebview.append(this.wv);
 
       plus.globalEvent.addEventListener("plusMessage", (msg) => {
