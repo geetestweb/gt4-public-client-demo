@@ -50,7 +50,7 @@
 		data() {
 			return {
 				config: {
-					captchaId: "be13c9e8983709233fd1ef8d70df68a0",
+					captchaId: "dd68c10db501ee386f3b0387842d29d0",
 					riskType: "slide",
 				},
 			};
