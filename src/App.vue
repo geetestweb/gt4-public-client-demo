@@ -3,7 +3,7 @@
  * @Version: 1.0.0
  * @Date: 2022-04-11 11:22:53
  * @LastEditors: Yawen Yang
- * @LastEditTime: 2022-06-17 15:56:25
+ * @LastEditTime: 2023-01-09 14:30:42
 -->
 <template>
   <div class="demoform">
@@ -87,9 +87,8 @@ export default defineComponent({
         alert("请先完成验证！");
         return;
       }
-
       instance.proxy
-        .axios({
+        .$axios({
           method: "get",
           url: "/demo/login",
           params: Object.assign(result, {
