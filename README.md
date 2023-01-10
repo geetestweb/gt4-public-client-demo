@@ -2,17 +2,17 @@
 
 ## Project setup
 ```
-yarn/npm install
+npm run/yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn/npm serve
+npm run/yarn serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn/npm build
+npm run/yarn build
 ```
 
 ### 1、find index.html in your project
