@@ -1,18 +1,14 @@
-# geetest-demo
+# captcha demo
 
-A new Flutter project.
-
-## Getting Started
-
+## Project setup
+```
 flutter run -d chrome
+```
 
-This project is a starting point for a Flutter application.
+### 1、find index.html in your project(path:web)
+### 2、add  <script src="https://static.geetest.com/v4/gt4.js"></script> in index.html 
+### 3、provide your captchaID in captcha.js (path: web/js)
+### 4、init Captcha like demo above
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Customize configuration
+See [online documentation](https://docs.flutter.dev/).
